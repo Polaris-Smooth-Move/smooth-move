@@ -1,0 +1,22 @@
+name: "❔ QUESTION"
+description: "질문 이슈"
+title: "❔"
+labels: [question]
+assignees: []
+body:
+  - type: textarea
+    id: question_content
+    attributes:
+      label: "질문 내용"
+      description: "의도 파악이 가능하도록 자세히 적어주세요."
+      placeholder: "여기에 질문 내용을 입력해주세요"
+    validations:
+      required: true
+  - type: textarea
+    id: effort_to_solve
+    attributes:
+      label: "해결하기 위한 노력"
+      description: "어떤 자료를 참고하고, 어떤 방향으로 진행했나요?"
+      placeholder: "여기에 해결을 위해 시도한 내용을 입력해주세요"
+    validations:
+      required: false
