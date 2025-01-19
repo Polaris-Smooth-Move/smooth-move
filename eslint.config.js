@@ -1,9 +1,9 @@
-import globals from "globals";
 import js from "@eslint/js";
-import react from "eslint-plugin-react";
-import reactHooks from "eslint-plugin-react-hooks";
 import eslintConfigPrettier from "eslint-config-prettier";
 import prettierPlugin from "eslint-plugin-prettier";
+import react from "eslint-plugin-react";
+import reactHooks from "eslint-plugin-react-hooks";
+import globals from "globals";
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [

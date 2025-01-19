@@ -8,5 +8,25 @@
   "arrowParens": "always",
   "trailingComma": "all",
   "endOfLine": "lf",
-  "tabWidth": 2
+  "tabWidth": 2,
+
+  "importOrder": [
+    "^react$",
+    "^react-dom$",
+    "^react-router-dom$",
+    "^react(.*)$",
+    "<BUILTIN_MODULES>",
+    "<THIRD_PARTY_MODULES>",
+    "^@/components/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/constants",
+    "^@/constants/(.*)$",
+    "^@/util(.*)$",
+    "^@/utils/(.*)$",
+    "^@/api/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
 }
