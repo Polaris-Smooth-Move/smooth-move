@@ -10,29 +10,29 @@ body:
       label: "어떤 버그인가요?"
       description: "간단히 적어주세요."
       placeholder: "여기에 내용을 입력해주세요"
-    validations:
-      required: true
+      validations:
+        required: true
   - type: textarea
     id: bug_context
     attributes:
       label: "어떤 상황에서 발생한 버그인가요?"
       description: "상황 파악이 가능하도록 자세히 적어주세요."
       placeholder: "여기에 내용을 입력해주세요"
-    validations:
-      required: true
+      validations:
+        required: true
   - type: textarea
     id: expected_result
     attributes:
       label: "예상 결과"
       description: "예상 결과는 뭔가요?"
       placeholder: "여기에 내용을 입력해주세요"
-    validations:
-      required: true
+      validations:
+        required: true
   - type: textarea
     id: efforts_to_fix
     attributes:
       label: "해결하기 위한 노력"
       description: "어떤 자료를 참고하고, 어떤 방향으로 문제를 바라봤나요?"
       placeholder: "여기에 내용을 입력해주세요"
-    validations:
-      required: false
+      validations:
+        required: false

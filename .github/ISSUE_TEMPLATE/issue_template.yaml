@@ -21,4 +21,4 @@ body:
     attributes:
       label: "기타 사항"
       description: "기타 상황을 말해주세요."
-      placeholder: "여기에 내용을 입력해주세요"
+      placeholder: "여기에 내용을 입력해주세요";
