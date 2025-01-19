@@ -2,12 +2,14 @@
   "bracketSpacing": false,
   "bracketSameLine": false,
   "jsxSingleQuote": false,
-  "singleQuote": false,
+  "requirePragma": false,
   "semi": true,
-  "quoteProps": "consistent",
+  "singleQuote": false,
+  "insertPragma": false,
+  "quoteProps": "as-needed",
   "arrowParens": "always",
-  "trailingComma": "all",
-  "endOfLine": "lf",
+  "trailingComma": "es5",
+  "proseWrap": "always",
   "tabWidth": 2,
 
   "importOrder": [
@@ -26,7 +28,7 @@
     "^@/api/(.*)$",
     "^[./]"
   ],
-  "importOrderSeparation": true,
+  "importOrderSeparation": false,
   "importOrderSortSpecifiers": true,
   "plugins": ["@trivago/prettier-plugin-sort-imports"]
 }
