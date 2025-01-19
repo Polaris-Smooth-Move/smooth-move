@@ -1,0 +1,24 @@
+name: "✅ ISSUE"
+description: "기본 이슈"
+title: "✅"
+labels: []
+assignees: []
+body:
+  - type: textarea
+    id: task_description
+    attributes:
+      label: "작업 내용"
+      description: "어떤 부분이 구현되었는지 설명해주세요"
+      placeholder: "여기에 내용을 입력해주세요"
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "예상되는 동작"
+      description: "무슨 일이 일어나야 할지 알려주세요"
+      placeholder: "여기에 내용을 입력해주세요"
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: "기타 사항"
+      description: "기타 상황을 말해주세요."
+      placeholder: "여기에 내용을 입력해주세요";
